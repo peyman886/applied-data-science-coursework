@@ -15,11 +15,23 @@ notebooks, committed with outputs so they render on GitHub.
 
 Homework 1–3 were done with Maryam Hokmabadi.
 
-## Large files
+The final project presentation is in
+[`final-project-text-classification/presentation/`](final-project-text-classification/presentation)
+(PowerPoint and PDF, with the figures used in it).
 
-The final presentation (`.pptx` and its images), zipped datasets and old
-notebook checkpoints are on Google Drive under
-`applied-data-science-coursework/`, to keep the repository small.
+## Datasets
+
+Public datasets are linked rather than stored. To re-run a notebook, download
+the data and save it next to the notebook under the name shown.
+
+| File expected | Used in | Source |
+|---|---|---|
+| `dataset.csv` | homework/01-eda | `CreditCard` from the AER package — [docs](https://vincentarelbundock.github.io/Rdatasets/doc/AER/CreditCard.html) |
+| `train.csv`, `test.csv`, `sample_submission.csv` | kaggle-spaceship-titanic | Kaggle competition *Spaceship Titanic* — [data](https://www.kaggle.com/competitions/spaceship-titanic/data) |
+
+The final project's Persian news dataset (`dataset.json`) and the small course
+files are kept in the repository; `kaggle-spaceship-titanic/submission.csv` is my
+competition submission.
 
 ## Running
 
